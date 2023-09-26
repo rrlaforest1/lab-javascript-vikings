@@ -71,6 +71,9 @@ class War {
       this.saxonArmy.splice([randomSaxonIndex], 1);
     }
 
+    //with filter
+    // this.saxonArmy = this.saxonArmy.filter(saxon => saxon.health > 0);
+
     return vikingAttackMessage;
   }
   saxonAttack() {
